@@ -1,0 +1,53 @@
+.header_outer_container{
+
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    /* <--left to right  */
+    align-items: center;
+    /* <---top to bottom  */
+
+    /* background-color: rgb(red, green, blue); */
+    /* background-color: rgb(148, 132, 132); */
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    /* <--when we scroll from top to bottom insert data  */
+    height: 10vh;
+    /* <---v(view)h(height) this is make more flaxible the screen size*/
+    color: white;
+    transition: all 0.5%;
+    transition-timing-function: ease-in;
+    /* <--when we scroll in  */
+    z-index: 1;
+    /* <--index from top 1  */
+    /* background-color: red; */
+
+}
+.nav_back{
+    background-color: rgb(20, 20, 20);
+}
+.headed_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.header_left ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.header_right ul{
+    /* display: flex; */
+     width: 140%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    list-style: none;
+    /* justify-content: center; */
+}
