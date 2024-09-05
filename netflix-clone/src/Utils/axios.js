@@ -1,8 +1,8 @@
 //axios use to feach data
 import axios from "axios";
-I
+
 const instance = axios.create({
-    baseURL: "https://api.themoviedb.org/3",//base URL start for all movie acess
+  baseURL: "https://api.themoviedb.org/3", //base URL start for all movie acess
 });
 export default instance;
 
