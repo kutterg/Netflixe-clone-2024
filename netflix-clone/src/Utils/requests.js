@@ -1,3 +1,4 @@
+//for writing url of NETFLIX ORGINALS and Trending now is different
 
 
 // const API_KEY = "9a23e9a8212b4d3000a10c25901b4430";
@@ -13,7 +14,7 @@ const requests = {
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 
   fetchTvShow: ` tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
-};
+};//those are object
 
 export default requests;
 
