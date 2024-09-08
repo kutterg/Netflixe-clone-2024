@@ -21,6 +21,7 @@
     /* <--when we scroll in  */
     z-index: 1;
     /* <--index from top 1  */
+
     /* background-color: red; */
 
 }
@@ -32,6 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     /* background-color: yellow; */
 }
 .header_left ul{
@@ -40,14 +42,24 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    cursor: pointer;
+
+
+    /* background-color: lightblue; */
 
 }
 .header_right ul{
-    /* display: flex; */
-     width: 140%;
+   
+     width: 150%;
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+
+
+    justify-content: space-between;
+
+    
     list-style: none;
-    /* justify-content: center; */
+    cursor: pointer;
+    /* background-color: lightblue; */
+   
+
 }
