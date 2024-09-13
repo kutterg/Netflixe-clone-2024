@@ -1,13 +1,14 @@
 .bannert {
   margin-top: -10vh;
   height: 80vh;
-  margin-bottom: -80px;
+  /* margin-bottom: -80px; */
   color: white;
   object-fit: contain;
 }
 .banner_contents {
   margin-left: 30px;
-  padding-top: 300px;
+  padding-top: 350px;
+  color: white;
   /* height: 190px; */
 }
 .banner_title {
@@ -22,7 +23,7 @@
 
   padding: 1rem 0;
 
-  font-size: 1rem;
+  font-size: 1.5rem;
 
   max-width: 360px;
 
@@ -55,7 +56,8 @@
   background-image:linear-gradient(
     180deg,
     transparent,
-    rgb (37, 37, 37, 0.91),
+   rgba(37, 37, 37, 0.91),
     #111
-  );
-}
+  )
+};
+
