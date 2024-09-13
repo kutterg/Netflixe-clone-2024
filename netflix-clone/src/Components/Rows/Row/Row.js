@@ -71,9 +71,9 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     },
   };
   return (
-    <div className="row ">
+    <div className="rows ">
       <h1>{title}</h1>
-      <div className="row_posters ">
+      <div className="row_posters">
         {movies?.map((movie, index) => (
           <img
             onClick={() => handleClick(movie)} //when i click the img then under the image its show movie(trailer)
