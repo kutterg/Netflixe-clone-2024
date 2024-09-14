@@ -77,12 +77,13 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         {movies?.map((movie, index) => (
           <img
             onClick={() => handleClick(movie)} //when i click the img then under the image its show movie(trailer)
-            className={`row_poster ${isLargeRow && "large"}`}
+            // className={`row_poster ${isLargeRow && "large"}`}
             key={index}
             src={`${base_url}${
               isLargeRow ? movie.poster_path : movie.backdrop_path
             }`}
             alt={movie.name}
+            className={`row_poster ${isLargeRow && "large"}`}
           />
         ))}
       </div>
